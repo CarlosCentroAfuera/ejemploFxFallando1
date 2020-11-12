@@ -15,13 +15,13 @@
       <RowConstraints />
    </rowConstraints>
    <children>
-      <Label fx:id="idLabelNombewTexto" text="Nombre">
+      <Label fx:id="idLabelNombreTexto" onMouseClicked="#onNombreClicked" text="Nombre">
          <GridPane.margin>
             <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
          </GridPane.margin>
       </Label>
-      <Label fx:id="idLabelNombre" text="Label" GridPane.columnIndex="1" />
-      <Label fx:id="idLabelEdadTexto" text="Edad" GridPane.rowIndex="1">
+      <Label fx:id="idLabelNombre" maxWidth="100.0" minWidth="100.0" text="Label" GridPane.columnIndex="1" />
+      <Label fx:id="idLabelEdadTexto" onMouseClicked="#onEdadClicked" text="Edad" GridPane.rowIndex="1">
          <GridPane.margin>
             <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
          </GridPane.margin>
